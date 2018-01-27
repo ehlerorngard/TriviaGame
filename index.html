@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>crystals collector</title>
+  <title>trivia game</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Anton|Fugaz+One|Josefin+Sans|Niconne" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-
 </head>
+
 <body>
   <!-- <img class="img-responsive" src="assets/images/mine.jpg"> -->
   <div class="jumbotron">
     <h1 class="display-4">trivia game</h1>
-    <p class="lead col-md-6">answer some trivia questions and don't take too long, alright?
+    <p class="lead col-md-8">answer some trivia questions and don't take too long, alright?
   </div>
 
+  <div id="mainWrapper" class="container">
+    <div id="mainRow" class="row">
+      <div id="mainSection" class="col-md-9">
+        <div id="questionText" class="row"><h2></h2>
+        </div>
 
+        <div id="optionButtons">
+        </div>
+      </div>
 
+      <div id="timerBox" class="col-md-2"><h3>time remaining: </h3><br>
+        <div id="timerReadout">10
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-
-
-
-
-<script type="text/javascript" src="assets/javascript/script.js">
+<script type="text/javascript" src="assets/javascript/app.js">
 </script>
 </body>
 </html>
