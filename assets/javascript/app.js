@@ -97,7 +97,8 @@ function loadTimeUpScreen() {
 function showEndGame() {
 	$("#questionText").text("Well, that's the game!");
 	$("#optionButtons").empty();
-	$("#optionButtons").text("You answered " + totalRightAnswers + " questions correctly and " + keySet.length-totalRightAnswers + " incorrectly.");
+	var totalWrong = keySet.length-totalRightAnswers;
+	$("#optionButtons").text("You answered " + totalRightAnswers + " questions correctly and " + totalWrong + " incorrectly.");
 	$("#timerReadout").empty();
 	var restartButton = $("<button>")
 	restartButton.text("click to play again")
