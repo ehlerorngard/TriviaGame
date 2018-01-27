@@ -16,19 +16,21 @@ div {
 .jumbotron {
 	background-color: rgba(202, 204, 226, 0.4);
 	max-height: 150px;
-	padding-top: 10px;
-	padding-left: 240px;
+	padding: 10px 80px;
 	margin-bottom: 10px;
 }
 .display-4 {
-	font-family: 'Fugaz One', cursive;
+	font-family: 'Plaster', serif;
 	font-size: 60px;
-	margin: 10px;
+	color: rgba(31, 33, 45, 1);
+	margin: 10px 40px 10px 10px;
+	max-width: 600px;
+	float: left;
 
 }
 .lead {
-	font-family: 'Niconne', cursive;
-	font-size: 28px;
+	font-family: 'Vibur', cursive;
+	font-size: 34px;
 	line-height: 120%;
 	color: black;
 	text-align: center;
@@ -42,22 +44,23 @@ div {
 #mainRow {
 	width: 100%;
 	background-color: rgba(110, 104, 104, 0.34);
-	height: 500px;
+	height: 480px;
 	margin: 0;
 }
 
 #mainSection {
 	float: left;
-	min-height: 400px;
+	min-height: 460px;
 	margin: 10px;
 	background-color: rgba(80, 80, 70, 0.4);
-	padding: 10px;
+	padding: 20px;
+	font-weight: 700;
 }
 #questionText {
 	width: 100%;
-	font-family: 'Josefin+Sans', Sans;
+	font-family: 'Raleway', Sans;
 	font-size: 40px;
-	color: rgba(110, 110, 110, 1);
+	color: rgba(107, 47, 10, 1);
 	margin: 0px;
 }
 h2 {
@@ -66,9 +69,38 @@ h2 {
 #optionButtons {
 	margin-left: 100px;
 	font-size: 40px;
-	font-family: 'Josefin+Sans', Sans;
+	font-family: 'Raleway', Sans;
 }
 .buttons {
+	display: block;
+	border: 2px solid darkgray;
+	background-color: white;
+	color: rgba(31, 33, 45, 1);
+	border-radius: 4px;
+	font-size: 32px;
+	text-align: center;
+	min-width: 200px;
+	padding: 10px 20px;
+	margin: 10px;
+}
+
+#timerBox {
+	font-size: 24px;
+	font-family: 'Vibur', Sans;
+	color: white;
+	background-color: rgba(110, 104, 104, 0.94);
+	padding: 20px;
+	float: right;
+	margin: 10px 10px 0 0;
+}
+h3 {
+	font-size: 36px;
+}
+#timerReadout {
+	font-size: 80px;
+	font-family: 'Fugaz One', cursive;
+}
+.restartButton {
 	display: block;
 	border: 2px solid darkgray;
 	background-color: white;
@@ -80,20 +112,6 @@ h2 {
 	padding: 10px 20px;
 	margin: 10px;
 }
-
-#timerBox {
-	font-size: 24px;
-	font-family: 'Josefin+Sans', Sans;
-	color: white;
-	background-color: rgba(110, 104, 104, 0.94);
-	padding: 20px;
-	float: right;
-	margin: 10px 10px 0 0;
-}
-h3 {
-	font-size: 36px;
-}
-#timerReadout {
-	font-size: 72px;
-	font-family: 'Fugaz One', cursive;
+img {
+	max-height: 300px;
 }
